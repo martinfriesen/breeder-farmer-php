@@ -1,0 +1,1 @@
+<?phpsession_start();global $db;$con="host=localhost port=5432 dbname=fh user=fh password=rooster";$db=pg_connect($con) or die('connection failed');?>
